@@ -18,8 +18,7 @@ if (isset($_POST['env']))
         VALUES('$login','$password')");
         $_SESSION['login'] = $login;
 $delai = 2; 
-    $url = 'http://localhost/livreor/connexion.php';
-    header("Refresh: $delai;url=$url");
+    header("location: connexion.php");
 
   }
   

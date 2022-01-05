@@ -26,7 +26,7 @@ if(isset($_POST['env'])){
             echo 'Vous êtes connectés.';
             $_SESSION["id"] = $res[0][0];
             $_SESSION['login'] = $login;
-            header ("refresh:2;url=index.php");   
+            header ("location:2;url=index.php");   
             }
 
         // Sinon le resultats de la requete de la base de donnée est vide!!!
