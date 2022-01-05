@@ -1,0 +1,51 @@
+header {
+    border-width:5px;
+    border-style: groove;
+    border-color:black;
+}
+
+header h1 {
+    font-family: 'Rock 3D', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+header #navBar {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+body {
+    background-image: url(jacquemus.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main {
+    font-family: 'Baloo Thambi 2', cursive;
+    text-align: center;
+    font-size: 30px;
+    max-width:1280px;
+    min-height:100%;
+    margin:0 auto;
+    position:relative;
+}
+
+footer {
+    border-width:5px;
+    border-style: groove;
+    border-color:black;
+    height: 80px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+}
+
+footer #navBar {
+    font-size: 20px;
+    font-family: 'Baloo Thambi 2', cursive;
+    text-align: center;
+}
